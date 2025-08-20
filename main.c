@@ -1,10 +1,31 @@
 #include <stdio.h>
 
-int main () {
-    printf ("Disciplina: Algoritmo e programação estruturada\n");
-    printf ("Turma: GPE17N20241\n");
-    printf ("Nome: Danylo Rodrigues da Silva\n");
-    printf ("Matrícula: UC25101463\n");
+int main() {
+    char nome[50];
+    char turma[20];
+    char disciplina[50];
+    int matricula;
+    float altura, massa;
+
+    // Coleta de informações
+    printf("Digite a disciplina: ");
+    scanf(" %[^\n]", disciplina);
+
+    printf("Digite a turma: ");
+    scanf(" %[^\n]", turma);
+
+    printf("Digite o nome: ");
+    scanf(" %[^\n]", nome);
+
+    printf("Digite a matrícula: ");
+    scanf("%d", &matricula);
+
+    printf("Digite a altura: ");
+    scanf("%f", &altura);
+
+    printf("Digite a massa: ");
+    scanf("%f", &massa);
 
     return 0;
 }
+
