@@ -8,22 +8,22 @@ int main() {
     float altura, massa;
 
     
-    printf("Digite a disciplina: ");
+    printf("algoritmo e programação estruturada ");
     scanf(" %[^\n]", disciplina);
 
-    printf("Digite a turma: ");
+    printf("GPE17N20241 ");
     scanf(" %[^\n]", turma);
 
-    printf("Digite o nome: ");
+    printf("Danylo Rodrigues ");
     scanf(" %[^\n]", nome);
 
-    printf("Digite a matrícula: ");
+    printf("UC25101463 ");
     scanf("%d", &matricula);
 
-    printf("Digite a altura: ");
+    printf("1.89 ");
     scanf("%f", &altura);
 
-    printf("Digite a massa: ");
+    printf("91Kg");
     scanf("%f", &massa);
 
     return 0;
