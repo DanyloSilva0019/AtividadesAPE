@@ -7,7 +7,7 @@ int main() {
     int matricula;
     float altura, massa;
 
-    // Coleta de informações
+    
     printf("Digite a disciplina: ");
     scanf(" %[^\n]", disciplina);
 
